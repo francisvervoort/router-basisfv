@@ -9,7 +9,10 @@
                 <header class="product-header">
                    {{product.naam}}
                 </header>
-                 
+                <figure class="img-container">
+                    <img :src="maakAfbeeldingUrl(product)"
+                     :alt="`Afbeelding van ${product.naam}`">
+                </figure>
                 <footer class="product-prijs">
                    &euro;{{product.prijs}}
                 </footer>
