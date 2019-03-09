@@ -22,7 +22,7 @@ export default {
 }
 
 html {
-    font: 62,5% 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /*elders is em relatief tov fontsize op html, er kan ook een lijnhoogte  62.5%/1.5*/
+    font: 62.5% 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /*elders is em relatief tov fontsize op html, er kan ook een lijnhoogte  62.5%/1.5*/
 }
 body {
     font-size: 1.6rem;  /* */
