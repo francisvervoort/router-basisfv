@@ -48,6 +48,7 @@ export default {
             categories,                    /*of categories: categories */
               // process.env geeft ons toegang tot omgevingsvariabelen van het project
             // de eig. BASE_URL wordt door Vue ingevuld met het absolute adres van de webapplicatie
+            
             baseUrl: process.env.BASE_URL  //  publicPath ipv baseUrl kan of nog andere benaming?, maar dan ook elders aanpassen
         }      
     },
